@@ -1,0 +1,57 @@
+:root {
+    font-size: ;
+    --tapete: #44A355;
+    --blanco: #ffffff;
+    --negro: #111111;
+    --gris: #343a40;
+
+    --fuentePrincipal: 'Raleway', sans-serif;
+}
+
+html {
+    background-color: var(--tapete);
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: var(--tapete);
+    font-family: var(--fuentePrincipal);
+    font-size: 1.6rem;
+    line-height: 1.8;
+}
+
+/*GLOBALES*/
+
+.contenedor {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+
+header {
+    background-color: var(--negro);
+    color: var(--blanco);
+}
+
+.header__contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+header h1 {
+    font-size: 4rem;
+}   
+
+
