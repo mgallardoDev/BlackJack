@@ -1,57 +1,92 @@
 :root {
-    font-size: ;
-    --tapete: #44A355;
-    --blanco: #ffffff;
-    --negro: #111111;
-    --gris: #343a40;
+     font-size: ;
+     --tapete: #44a355;
+     --blanco: #ffffff;
+     --negro: #111111;
+     --gris: #343a40;
 
-    --fuentePrincipal: 'Raleway', sans-serif;
+     --fuentePrincipal: 'Raleway', sans-serif;
 }
 
 html {
-    background-color: var(--tapete);
-    font-size: 62.5%;
-    box-sizing: border-box;
+     background-color: var(--tapete);
+     font-size: 62.5%;
+     box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+     box-sizing: inherit;
 }
 
 body {
-    background-color: var(--tapete);
-    font-family: var(--fuentePrincipal);
-    font-size: 1.6rem;
-    line-height: 1.8;
+     background-color: var(--tapete);
+     font-family: var(--fuentePrincipal);
+     font-size: 1.6rem;
+     line-height: 1.8;
 }
 
 /*GLOBALES*/
 
 .contenedor {
-    max-width: 120rem;
-    width: 90%;
-    margin: 0 auto;
+     max-width: 120rem;
+     width: 90%;
+     margin: 0 auto;
+}
+
+h1 {
+     font-size: 5rem;
+}
+h2 {
+     font-size: 4.6rem;
+}
+h3 {
+     font-size: 3rem;
 }
 
 /* HEADER */
 
-
 header {
-    background-color: var(--negro);
-    color: var(--blanco);
+     background-color: var(--negro);
+     color: var(--blanco);
 }
 
 .header__contenedor {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 2rem;
 }
 
-header h1 {
-    font-size: 4rem;
-}   
+/* JUEGO */
 
+.juego {
+     color: var(--blanco);
+}
 
+.juego__botones {
+     padding: 2rem;
+     display: flex;
+     justify-content: center;
+     gap: 2rem;
+}
+
+/* JUGADOR */
+
+.jugador {
+     margin-top: 2rem;
+}
+
+.jugador__cartas {
+     height: 24rem;
+}
+
+/* CARTA */
+
+.carta {
+     width: 15rem;
+     position: relative;
+     left: 10rem;
+     margin-left: -6.5rem;
+}

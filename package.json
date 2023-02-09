@@ -1,0 +1,22 @@
+{
+  "name": "blackjack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgallardoDev/BlackJack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgallardoDev/BlackJack/issues"
+  },
+  "homepage": "https://github.com/mgallardoDev/BlackJack#readme",
+  "dependencies": {
+    "underscore": "^1.13.6"
+  }
+}
