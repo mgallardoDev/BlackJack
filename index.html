@@ -1,46 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@300;400;700;900&display=swap" rel="stylesheet"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <div class="header__contenedor contenedor">
-            <h1>BlackJack</h1>
-        </div>
-    </header>
-    <main class="juego contenedor">
-        <div class="juego__botones">
-            <button id="botonNuevoJuego" class="btn btn-danger">Nuevo juego</button>
-            <button id="" class="btn btn-primary">Pedir carta</button>
-            <button id="" class="btn btn-primary">Pasar</button>
-        </div>
-        <div class="jugador">
-            <h2 class="jugador__nombre">JS</h2>
-            <p class="jugador__puntuacion">Puntuacion - 
-                <span class="jugador__puntos"></span>
-            </p> 
-            <div class="jugador__cartas">
-                
-            </div>
-        </div>
-        <div class="jugador">
-            <h2 class="jugador__nombre">JS</h2>
-            <p class="jugador__puntuacion">Puntuacion - 
-                <span class="jugador__puntos"></span>
-            </p> 
-            <div class="jugador__cartas">
-
-            </div>
-        </div>
-    </main>
-    <script src="assets/js/underscore.js"></script>
-    <script src="assets/js/juego.js"></script>
-</body>
+     <head>
+          <meta charset="UTF-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta
+               name="viewport"
+               content="width=device-width, initial-scale=1.0"
+          />
+          <link
+               href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@300;400;700;900&display=swap"
+               rel="stylesheet"
+          />
+          <link
+               href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+               rel="stylesheet"
+               integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+               crossorigin="anonymous"
+          />
+          <link rel="stylesheet" href="assets/css/style.css" />
+          <title>Document</title>
+     </head>
+     <body>
+          <header>
+               <div class="header__contenedor contenedor">
+                    <h1>BlackJack</h1>
+               </div>
+          </header>
+          <main class="juego contenedor">
+               <div class="juego__botones">
+                    <button id="botonNuevoJuego" class="btn btn-danger">
+                         Nuevo juego
+                    </button>
+                    <button id="botonPedir" class="btn btn-primary">Pedir carta</button>
+                    <button id="botonPasar" class="btn btn-primary">Pasar</button>
+               </div>
+               <div class="jugador">
+                    <h2 class="jugador__nombre">Jugador</h2>
+                    <p class="jugador__puntuacion">
+                         Puntuacion -
+                         <span class="jugador__puntos">0</span>
+                    </p>
+                    <div class="jugador__cartas"></div>
+               </div>
+               <div class="jugador">
+                    <h2 class="jugador__nombre">Ordenador</h2>
+                    <p class="jugador__puntuacion">
+                         Puntuacion -
+                         <span class="jugador__puntos">0</span>
+                    </p>
+                    <div class="jugador__cartas"></div>
+               </div>
+          </main>
+          <script src="assets/js/underscore.js"></script>
+          <script src="assets/js/juego.js"></script>
+     </body>
 </html>
