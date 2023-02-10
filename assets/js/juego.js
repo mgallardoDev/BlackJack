@@ -58,7 +58,7 @@ const puntuar = function (carta, jugador0ordenador1) {
      contenedoresPuntuacion[jugador0ordenador1].innerText =
           puntuaciones[jugador0ordenador1];
      isBiggerThan21(jugador0ordenador1)
-          ? (jugador0ordenador1 = 0 ? alertLoose() : null)
+          ? (jugador0ordenador1 == 0 ? alertLoose() : null)
           : isBlackJack(jugador0ordenador1)
           ? cambiarTurno()
           : null;

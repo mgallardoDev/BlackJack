@@ -71,6 +71,27 @@ header {
      gap: 2rem;
 }
 
+/* TAPETE */
+
+.tapete__grid{
+     display: grid;
+     grid-template:
+          "player1 player1 deck" 1fr
+          "pc pc deck" 1fr
+}
+
+.tapete__grid .tapete__jugador:nth-child(1){
+     grid-area: player1;
+}
+.tapete__grid .tapete__jugador:nth-child(2){
+     grid-area: pc;
+}
+.tapete__mazo{
+     grid-area: deck;
+}
+
+
+
 /* JUGADOR */
 
 .jugador {
